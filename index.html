@@ -176,7 +176,7 @@ body.home-active #page-home{overflow:visible}
     <li><button id="btn-farsi" class="disabled" onclick="return false">ফার্সি</button></li>
     <li><button id="btn-english" class="disabled" onclick="return false">ইংরেজি ১ম</button></li>
     <li><button id="btn-english2" class="disabled" onclick="return false">ইংরেজি ২য়</button></li>
-    <li><button id="btn-englearn" class="disabled" onclick="return false">ইংরেজি শিখো</button></li>
+    <li><button id="btn-englearn" onclick="showPage('englearn')">ইংরেজি শিখো</button></li>
     <li><button id="btn-tahkik" onclick="showPage('tahkik')">তাহকীক</button></li>
   </ul>
 </nav>
@@ -1063,6 +1063,583 @@ body.home-active #page-home{overflow:visible}
   </div>
 </div>
 
+<!-- ENGLISH SHIKHO PAGE -->
+<div class="page" id="page-englearn">
+  <div style="height:48px;"></div>
+  <div style="max-width:860px;padding:2.5rem 1.5rem 5rem;margin:0 auto;">
+
+    <header class="page-header">
+      <div class="page-tag">ইংরেজি শিখো</div>
+      <h1 class="page-title">All Basic English Sentence Structures</h1>
+      <p class="page-meta">Puropuri English Shikhi Package · English Boli</p>
+    </header>
+
+    <div class="notes">
+
+      <!-- STRUCTURE 1: I am -->
+      <article class="note-card" id="es1">
+        <div class="note-header">
+          <span class="note-badge">Structure ১</span>
+          <h2 class="note-title">I am ______ — আমি হলাম কিছু একটা</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I am ______ → আমি <u>হলাম</u> কিছু একটা
+          </div>
+          <p><strong style="color:var(--accent)">Adjective সহ:</strong></p>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I am happy.</strong> → আমি হলাম সুখী</li>
+            <li><span class="list-dot"></span><strong>I am sad.</strong> → আমি হলাম দুঃখী</li>
+            <li><span class="list-dot"></span><strong>I am healthy.</strong> → আমি হলাম সুস্থ</li>
+            <li><span class="list-dot"></span><strong>I am sick.</strong> → আমি হলাম অসুস্থ</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--accent)">I am a ______ = আমি হলাম একজন:</strong></p>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I am a teacher.</strong> → আমি হলাম একজন শিক্ষক</li>
+            <li><span class="list-dot"></span><strong>I am a doctor.</strong> → আমি হলাম একজন ডাক্তার</li>
+            <li><span class="list-dot"></span><strong>I am a boy / girl.</strong> → আমি হলাম একজন ছেলে / মেয়ে</li>
+            <li><span class="list-dot"></span><strong>I am a student.</strong> → আমি হলাম একজন ছাত্র</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I am Rafiq. I am 40 years old. I am a doctor. I am successful. I am rich. I am happy. I am busy now.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            I am <u>40</u> years old. = আমি ___ বছর বয়সের।<br>
+            Successful = সফল &nbsp;·&nbsp; Rich = ধনী &nbsp;·&nbsp; Busy = ব্যস্ত &nbsp;·&nbsp; Now = এখন
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 2: I was / I will be -->
+      <article class="note-card" id="es2">
+        <div class="note-header">
+          <span class="note-badge">Structure ২</span>
+          <h2 class="note-title">I was / I will be</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I was ______ → আমি কিছু একটা ছিলাম (পূর্বে)
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I was happy.</strong> → আমি সুখী ছিলাম</li>
+            <li><span class="list-dot"></span><strong>I was sad.</strong> → আমি দুঃখী ছিলাম</li>
+            <li><span class="list-dot"></span><strong>I was healthy.</strong> → আমি সুস্থ ছিলাম</li>
+            <li><span class="list-dot"></span><strong>I was sick.</strong> → আমি অসুস্থ ছিলাম</li>
+            <li><span class="list-dot"></span><strong>I was a teacher.</strong> → আমি একজন শিক্ষক ছিলাম</li>
+            <li><span class="list-dot"></span><strong>I was a doctor.</strong> → আমি একজন ডাক্তার ছিলাম</li>
+            <li><span class="list-dot"></span><strong>I was a student.</strong> → আমি একজন ছাত্র ছিলাম</li>
+            <li><span class="list-dot"></span><strong>I was a singer.</strong> → আমি একজন গায়ক ছিলাম</li>
+          </ul>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent);margin-top:1rem">
+            I will be ______ → আমি কিছু একটা হবো (ভবিষ্যতে)
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I will be happy.</strong> → আমি সুখী হবো</li>
+            <li><span class="list-dot"></span><strong>I will be sad.</strong> → আমি দুঃখী হবো</li>
+            <li><span class="list-dot"></span><strong>I will be a teacher.</strong> → আমি একজন শিক্ষক হবো</li>
+            <li><span class="list-dot"></span><strong>I will be a doctor.</strong> → আমি একজন ডাক্তার হবো</li>
+            <li><span class="list-dot"></span><strong>I will be a student.</strong> → আমি একজন ছাত্র হবো</li>
+            <li><span class="list-dot"></span><strong>I will be a singer.</strong> → আমি একজন গায়ক হবো</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">Revision উদাহরণ:</strong> I am Ahnaf. I am a manager at ABC company. I was a student at 123 University. I will be a businessman next year. I am happy. I was sad. I will be successful. I was poor. I am rich now. I will be richer. I am 30 years old. I was 25 years old. I will be 31 years old next month.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Rich → Richer &nbsp;·&nbsp; Tall → Taller<br>
+            Next month = পরের মাস &nbsp;·&nbsp; Next day = পরের দিন &nbsp;·&nbsp; Next year = পরের বছর
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 3: I verb simple form -->
+      <article class="note-card" id="es3">
+        <div class="note-header">
+          <span class="note-badge">Structure ৩</span>
+          <h2 class="note-title">I verb (simple form) — আমি কিছু করি (সাধারণত)</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I <u>verb simple form</u> → আমি কিছু করি (সাধারণত)
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I eat rice every day.</strong> → আমি প্রতিদিন ভাত খাই</li>
+            <li><span class="list-dot"></span><strong>I sleep at 11 pm.</strong> → আমি রাত ১১টায় ঘুমাই</li>
+            <li><span class="list-dot"></span><strong>I play football sometimes.</strong> → আমি মাঝে মাঝে ফুটবল খেলি</li>
+            <li><span class="list-dot"></span><strong>I go to school every day.</strong> → আমি প্রতিদিন স্কুলে যাই</li>
+          </ul>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Usually = সাধারণত &nbsp;·&nbsp; Every day = প্রতিদিন &nbsp;·&nbsp; At 3pm = এক নির্দিষ্ট সময়ে<br>
+            Sometimes = মাঝে মাঝে &nbsp;·&nbsp; Rarely = অনেক কমই
+          </div>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I wake up in the morning. I eat breakfast. I brush my teeth. I wear my uniform. I go to school. I study. I read books. I run on the field. I play football with my friends.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Wake up = ঘুম থেকে উঠা &nbsp;·&nbsp; Eat = খাওয়া &nbsp;·&nbsp; Brush = মাজা<br>
+            Wear = জামা পড়া &nbsp;·&nbsp; Go = যাওয়া (to দিবেন পড়ে কোথায় যাচ্ছেন বলতে)<br>
+            Study = লেখাপড়া করা &nbsp;·&nbsp; Read = পড়া (বই) &nbsp;·&nbsp; Run = দৌড়ানো &nbsp;·&nbsp; Play = খেলা
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 4: I am verb+ing -->
+      <article class="note-card" id="es4">
+        <div class="note-header">
+          <span class="note-badge">Structure ৪</span>
+          <h2 class="note-title">I am verb+ing — আমি কিছু করছি এখন</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I <u>am verb+ing</u> → আমি কিছু করছি এখন
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I am eating.</strong> → আমি খাচ্ছি</li>
+            <li><span class="list-dot"></span><strong>I am sleeping.</strong> → আমি ঘুমাচ্ছি</li>
+            <li><span class="list-dot"></span><strong>I am working now.</strong> → আমি এখন কাজ করছি</li>
+            <li><span class="list-dot"></span><strong>I am cooking.</strong> → আমি রান্না করছি</li>
+            <li><span class="list-dot"></span><strong>I am going to school.</strong> → আমি স্কুলে যাচ্ছি</li>
+            <li><span class="list-dot"></span><strong>I am brushing my teeth.</strong> → আমি আমার দাত ব্রাশ করছি</li>
+            <li><span class="list-dot"></span><strong>I am running.</strong> → আমি দৌড়াচ্ছি</li>
+            <li><span class="list-dot"></span><strong>I am playing football.</strong> → আমি ফুটবল খেলছি</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I am sitting on a chair. I am talking to Rashed. I am studying English. I am doing my homework. I am feeling happy. I am writing a story.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Sitting = বসে আছি &nbsp;·&nbsp; On a chair = চেয়ারের উপরে &nbsp;·&nbsp; Talking to = কথা বলছি ___-এর সঙ্গে<br>
+            Do → Doing = করছি &nbsp;·&nbsp; Feel → Feeling = অনুভব করছি &nbsp;·&nbsp; Writing = লিখছি &nbsp;·&nbsp; Story = গল্প
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 5: I verb past form -->
+      <article class="note-card" id="es5">
+        <div class="note-header">
+          <span class="note-badge">Structure ৫</span>
+          <h2 class="note-title">I verb (past form) — আমি কিছু করেছি (পূর্বে)</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I <u>verb past form</u> → আমি কিছু করেছি (পূর্বে) — এখানে V2 বসবে
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I ate rice yesterday.</strong> → আমি গতকাল ভাত খেয়েছি</li>
+            <li><span class="list-dot"></span><strong>I slept at 11 pm.</strong> → আমি রাত ১১টায় ঘুমিয়েছি</li>
+            <li><span class="list-dot"></span><strong>I played football at 10 am today.</strong> → আমি আজকে সকাল ১০টায় ফুটবল খেলেছি</li>
+            <li><span class="list-dot"></span><strong>I went to school today.</strong> → আমি আজকে স্কুলে গিয়েছি</li>
+          </ul>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Eat → Ate (খেয়েছি) &nbsp;·&nbsp; Sleep → Slept (ঘুমিয়েছি) &nbsp;·&nbsp; Play → Played (খেলেছি)<br>
+            Go → Went (গিয়েছি) &nbsp;·&nbsp; Study → Studied (লেখাপড়া করেছি)<br>
+            Wake up → Woke up &nbsp;·&nbsp; Brush → Brushed &nbsp;·&nbsp; Wear → Wore<br>
+            Read → Read (একই, উচ্চারণ ভিন্ন) &nbsp;·&nbsp; Run → Ran
+          </div>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> Today, I woke up at 8am. I went to school. I brushed my teeth. I wore my uniform. I ate rice and chicken. I studied English. I read a book. I played football with my friends. I watched a movie. I walked to a supermarket.</p>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 6: I will -->
+      <article class="note-card" id="es6">
+        <div class="note-header">
+          <span class="note-badge">Structure ৬</span>
+          <h2 class="note-title">I will ______ — আমি কিছু করবো (ভবিষ্যতে)</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I will ______ → আমি কিছু করবো (ভবিষ্যতে)
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I will go to school tomorrow.</strong> → আমি কালকে স্কুলে যাবো</li>
+            <li><span class="list-dot"></span><strong>I will sleep at 10 pm.</strong> → আমি ঘুমাবো রাত ১০টায়</li>
+            <li><span class="list-dot"></span><strong>I will play football today.</strong> → আমি খেলবো ফুটবল আজকে</li>
+            <li><span class="list-dot"></span><strong>I will sing a song.</strong> → আমি গান গাবো</li>
+            <li><span class="list-dot"></span><strong>I will dance now.</strong> → আমি এখন নাচবো</li>
+            <li><span class="list-dot"></span><strong>I will learn English.</strong> → আমি ইংলিশ শিখবো</li>
+            <li><span class="list-dot"></span><strong>I will teach English.</strong> → আমি ইংলিশ পড়াবো</li>
+            <li><span class="list-dot"></span><strong>I will do my homework at night.</strong> → আমি আমার বাসারকাজ রাতে করবো</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I will go out today. I will go to the Bazar. I will buy vegetables. I will buy chicken and rice. I will eat at a restaurant. I will come home at 7 pm. I will cook dinner. I will eat dinner with my family. I will sleep at 11 pm.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Out/Outside = বাইরে &nbsp;·&nbsp; At a restaurant = একটা নির্দিষ্ট জায়গায়<br>
+            Come = আসা &nbsp;·&nbsp; Go = যাওয়া &nbsp;·&nbsp; Dinner = রাতের খাবার &nbsp;·&nbsp; Lunch = দুপুরের খাবার &nbsp;·&nbsp; Breakfast = নাস্তা
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 7: I want -->
+      <article class="note-card" id="es7">
+        <div class="note-header">
+          <span class="note-badge">Structure ৭</span>
+          <h2 class="note-title">I want ______ — আমি ___ চাই</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I want ______ → আমি ___ চাই
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I want money.</strong> → আমি টাকা চাই</li>
+            <li><span class="list-dot"></span><strong>I want happiness.</strong> → আমি সুখ চাই</li>
+            <li><span class="list-dot"></span><strong>I want success.</strong> → আমি সফলতা চাই</li>
+            <li><span class="list-dot"></span><strong>I want peace.</strong> → আমি শান্তি চাই</li>
+            <li><span class="list-dot"></span><strong>I want a pen.</strong> → আমি একটা কলম চাই</li>
+            <li><span class="list-dot"></span><strong>I want a book.</strong> → আমি একটা বই চাই</li>
+            <li><span class="list-dot"></span><strong>I want a new T-shirt.</strong> → আমি একটা নতুন টি-শার্ট চাই</li>
+            <li><span class="list-dot"></span><strong>I want an iphone.</strong> → আমি একটা আইফোন চাই</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I want a phone. I want a laptop. I want food. I want a burger. I want a new car. I want a house. I want a job. I want success. I want money. I want happiness.</p>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 8: I want to verb -->
+      <article class="note-card" id="es8">
+        <div class="note-header">
+          <span class="note-badge">Structure ৮</span>
+          <h2 class="note-title">I want to verb — আমি ___ করতে চাই</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I want to <u>verb</u> → আমি ____ করতে চাই
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I want to sleep.</strong> → আমি ঘুমাতে চাই</li>
+            <li><span class="list-dot"></span><strong>I want to study.</strong> → আমি লেখাপড়া করতে চাই</li>
+            <li><span class="list-dot"></span><strong>I want to go to school.</strong> → আমি স্কুলে যেতে চাই</li>
+            <li><span class="list-dot"></span><strong>I want to eat pizza.</strong> → আমি একটা পিজ্জা খেতে চাই</li>
+            <li><span class="list-dot"></span><strong>I want to sit.</strong> → আমি বসতে চাই</li>
+            <li><span class="list-dot"></span><strong>I want to play football.</strong> → আমি ফুটবল খেলতে চাই</li>
+            <li><span class="list-dot"></span><strong>I want to cook rice.</strong> → আমি ভাত রান্না করতে চাই</li>
+            <li><span class="list-dot"></span><strong>I want to read a book.</strong> → আমি একটা বই পড়তে চাই</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I want to go to school. I want to study English. I want to pass the exam. I want to eat my tiffin. I want to finish my homework. I want to play football with my friends.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Pass = পাস করা &nbsp;·&nbsp; My = আমার &nbsp;·&nbsp; Finish = শেষ করা &nbsp;·&nbsp; With = সাথে
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 9: I need -->
+      <article class="note-card" id="es9">
+        <div class="note-header">
+          <span class="note-badge">Structure ৯</span>
+          <h2 class="note-title">I need ____ — আমার ___ লাগবে</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I need ____ → আমার ___ লাগবে &nbsp;(I want-এর মতই কিন্তু জোরটা একটু বেশি)
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I need a pen.</strong> → আমার একটা কলম লাগবে</li>
+            <li><span class="list-dot"></span><strong>I need a computer.</strong> → আমার একটা কম্পিউটার লাগবে</li>
+            <li><span class="list-dot"></span><strong>I need a house.</strong> → আমার একটা বাসা লাগবে</li>
+            <li><span class="list-dot"></span><strong>I need a piece of cake.</strong> → আমার এক পিস কেক লাগবে</li>
+            <li><span class="list-dot"></span><strong>I need happiness.</strong> → আমার সুখ লাগবে</li>
+            <li><span class="list-dot"></span><strong>I need peace.</strong> → আমার শান্তি লাগবে</li>
+            <li><span class="list-dot"></span><strong>I need success.</strong> → আমার সফলতা লাগবে</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I am hungry. I need food. I need a burger. I need a pizza. I need a car. I need a house. I need happiness. I need friends.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            <strong>Extra Vocabulary:</strong><br>
+            A few = কয়েকটা → I need a few pens.<br>
+            Many = অনেক গুলো → I want many books.<br>
+            Some = কিছু/একটু → I need some water.<br>
+            A lot of = অনেকটা → I need a lot of sugar.
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 10: I need to -->
+      <article class="note-card" id="es10">
+        <div class="note-header">
+          <span class="note-badge">Structure ১০</span>
+          <h2 class="note-title">I need to ____ — আমার ___ করতে লাগবে</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I need to ____ → আমার ___ করতে লাগবে &nbsp;(Want to-এর মতই, কিন্তু জোর বেশি)
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I need to study.</strong> → আমার লেখাপড়া করতে হবে</li>
+            <li><span class="list-dot"></span><strong>I need to eat rice.</strong> → আমার ভাত খেতে হবে</li>
+            <li><span class="list-dot"></span><strong>I need to take a shower.</strong> → আমার গসল করতে হবে</li>
+            <li><span class="list-dot"></span><strong>I need to take my medicine.</strong> → আমার খেতে হবে আমার ওষুধ</li>
+            <li><span class="list-dot"></span><strong>I need to finish my homework.</strong> → আমার শেষ করতে হবে আমার বাসারকাজ</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I need to study. I need to pass the exam. I need to finish my homework. I need to go to school tomorrow. I need to sleep early. I need to study 3 chapters.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Early = আগে আগে: I went to school early.<br>
+            Late = দেরি করে: I went to school late.<br>
+            On Time = সময় মতো: I went to school on time.
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 11: I have -->
+      <article class="note-card" id="es11">
+        <div class="note-header">
+          <span class="note-badge">Structure ১১</span>
+          <h2 class="note-title">I have ____ — আমার আছে</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I have ____ → আমার আছে
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I have a pen.</strong> → আমার একটা কলম আছে</li>
+            <li><span class="list-dot"></span><strong>I have a computer.</strong> → আমার একটা কম্পিউটার আছে</li>
+            <li><span class="list-dot"></span><strong>I have a house.</strong> → আমার একটা বাসা আছে</li>
+            <li><span class="list-dot"></span><strong>I have a car.</strong> → আমার একটা গাড়ি আছে</li>
+            <li><span class="list-dot"></span><strong>I have two bags.</strong> → আমার দুইটা ব্যাগ আছে</li>
+            <li><span class="list-dot"></span><strong>I have a new phone.</strong> → আমার একটা নতুন ফোন আছে</li>
+            <li><span class="list-dot"></span><strong>I have a fever.</strong> → আমার একটা জ্বর আছে</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I have a house. I have a business. I have an expensive car. I have many friends. I have a new phone. I have nice clothes. I have everything that I want.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Expensive = দামি &nbsp;·&nbsp; Clothes = জামাকাপড় &nbsp;·&nbsp; That = যা (বাক্যের মাঝে বসলে) &nbsp;·&nbsp; Everything = সব কিছু
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 12: I have to -->
+      <article class="note-card" id="es12">
+        <div class="note-header">
+          <span class="note-badge">Structure ১২</span>
+          <h2 class="note-title">I have to ____ — আমার ___ করতে হবে</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I have to ____ → আমার ___ করতে হবে
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I have to study.</strong> → আমার লেখাপড়া করতে হবে</li>
+            <li><span class="list-dot"></span><strong>I have to finish my homework.</strong> → আমার শেষ করতে হবে আমার বাসারকাজ</li>
+            <li><span class="list-dot"></span><strong>I have to go home.</strong> → আমার বাসায় যেতে হবে</li>
+            <li><span class="list-dot"></span><strong>I have to get a job.</strong> → আমার একটা চাকরি পেতে হবে</li>
+            <li><span class="list-dot"></span><strong>I have to sleep early.</strong> → আমার আগে আগে ঘুমাতে হবে</li>
+            <li><span class="list-dot"></span><strong>I have to wake up early.</strong> → আমার আগে আগে ঘুম থেকে উঠতে হবে</li>
+            <li><span class="list-dot"></span><strong>I have to cook lunch.</strong> → আমার দুপুরের খাবার রান্না করতে হবে</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I am Samiha. I have to go to my office. I have to work all day. I have to call my boss. I have to write a letter. I have to do a meeting. I have to give a presentation.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            I want to ___ = আমি ____ করতে চাই<br>
+            I have to ___ = আমার ____ করতে হবে<br>
+            I need to ___ = আমার ____ করতে লাগবে
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 13: This is / That is -->
+      <article class="note-card" id="es13">
+        <div class="note-header">
+          <span class="note-badge">Structure ১৩</span>
+          <h2 class="note-title">This is / That is — এটা হল / ওইটা হল</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            This is ___ → এটা হল __ &nbsp;|&nbsp; That is ___ → ওইটা হল __
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>This is a cat.</strong> → এটা হল একটা বিড়াল</li>
+            <li><span class="list-dot"></span><strong>This is my brother.</strong> → এটা হল আমার ভাই</li>
+            <li><span class="list-dot"></span><strong>This is a red car.</strong> → এটা হল একটা লাল গাড়ি</li>
+            <li><span class="list-dot"></span><strong>This is my favorite food.</strong> → এটা হল আমার প্রিয় খাবার</li>
+            <li><span class="list-dot"></span><strong>That is my house.</strong> → ওইটা হল আমার বাসা</li>
+            <li><span class="list-dot"></span><strong>That is my favorite TV show.</strong> → ওইটা হল আমার প্রিয় টিভি শো</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I am Sadman. I am at a zoo. This is an elephant. That is a tiger. That is a bird. This is a snake. That is a lion. That is a zebra. This is a horse. That is a giraffe. This is my bag. That is our red car.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Zoo = চিড়িয়াখানা &nbsp;·&nbsp; Elephant = হাতি &nbsp;·&nbsp; Tiger = বাঘ &nbsp;·&nbsp; Bird = পাখি<br>
+            Snake = সাপ &nbsp;·&nbsp; Lion = সিংহ &nbsp;·&nbsp; Zebra = জেব্রা &nbsp;·&nbsp; Horse = ঘোড়া &nbsp;·&nbsp; Giraffe = জিরাফ
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 14: It is -->
+      <article class="note-card" id="es14">
+        <div class="note-header">
+          <span class="note-badge">Structure ১৪</span>
+          <h2 class="note-title">It is ____ — এটা হল / General Sense-এ কিছু একটা</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            It is ____ → এটা হল / General Sense-এ কিছু একটা
+          </div>
+          <p><strong style="color:var(--accent)">General Sense-এ:</strong></p>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>It is hot today.</strong> → আজকে অনেক গরম</li>
+            <li><span class="list-dot"></span><strong>It is going to be okay.</strong> → ঠিক হয়ে যাবে</li>
+            <li><span class="list-dot"></span><strong>It is very cold today.</strong> → আজকে অনেক ঠাণ্ডা</li>
+            <li><span class="list-dot"></span><strong>It is raining.</strong> → বৃষ্টি পড়ছে</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--accent)">এটা হলঃ</strong></p>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>It is broken.</strong> → এটা হল ভাঙা</li>
+            <li><span class="list-dot"></span><strong>It is a new phone.</strong> → এটা হল একটা নতুন ফোন</li>
+            <li><span class="list-dot"></span><strong>It is hard.</strong> → এটা হল কঠিন</li>
+            <li><span class="list-dot"></span><strong>It is impossible.</strong> → এটা হল অসম্ভব</li>
+            <li><span class="list-dot"></span><strong>It is very fast.</strong> → এটা হল অনেক দ্রুত</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> This is my phone. It is fully charged. It is a new phone. It is an iphone. It is very expensive. It is very helpful. It is raining today. It is very cold. It is a bad day.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Fully = পুরোপুরিভাবে &nbsp;·&nbsp; Expensive = অনেক দামি &nbsp;·&nbsp; Raining = বৃষ্টি পড়ছে &nbsp;·&nbsp; Bad = খারাপ
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 15: There is -->
+      <article class="note-card" id="es15">
+        <div class="note-header">
+          <span class="note-badge">Structure ১৫</span>
+          <h2 class="note-title">There is ____ — General Sense-এ কিছু একটা আছে</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            There is ____ → General Sense-এ কিছু একটা আছে
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>There is a tall boy in our class.</strong> → আমাদের ক্লাসে একটা লম্বা ছেলে আছে</li>
+            <li><span class="list-dot"></span><strong>There is an apple on the table.</strong> → টেবিলের উপর একটা আপেল আছে</li>
+            <li><span class="list-dot"></span><strong>There is a problem.</strong> → একটা সমস্যা আছে</li>
+            <li><span class="list-dot"></span><strong>There is a cat on the sofa.</strong> → একটা বিড়াল আছে সফার উপর</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> There is a tall boy in our class. There is an exam tomorrow. There is a cat on our table. There is a problem at our school. So, it is closed tomorrow.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Tall = লম্বা &nbsp;·&nbsp; So = তাই &nbsp;·&nbsp; Closed = বন্ধ (Past tense of Close)
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 16: I can / I cannot -->
+      <article class="note-card" id="es16">
+        <div class="note-header">
+          <span class="note-badge">Structure ১৬</span>
+          <h2 class="note-title">I can / I cannot — আমি কিছু পারি / পারি না করতে</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I can __ → আমি কিছু পারি করতে &nbsp;|&nbsp; I cannot __ → আমি কিছু পারি না করতে
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I can sing.</strong> → আমি গান গাইতে পারি</li>
+            <li><span class="list-dot"></span><strong>I can play guitar.</strong> → আমি গিটার বাজাতে পারি</li>
+            <li><span class="list-dot"></span><strong>I can cook biriyani.</strong> → আমি বিরিয়ানি রান্না করতে পারি</li>
+            <li><span class="list-dot"></span><strong>I can speak English.</strong> → আমি ইংলিশে কথা বলতে পারি</li>
+            <li><span class="list-dot"></span><strong>I cannot play guitar.</strong> → আমি গিটার বাজাতে পারি না</li>
+            <li><span class="list-dot"></span><strong>I cannot speak English.</strong> → আমি ইংলিশ বলতে পারি না</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I am Raihan. I can swim. I can run. I can jump. I can sing. I can play guitar. I cannot drive a car. I cannot ride a bike. I cannot climb a tree.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Swim = সাঁতার কাটা &nbsp;·&nbsp; Run = দৌড়ানো &nbsp;·&nbsp; Jump = লাফ দেওয়া<br>
+            Drive = চালানো (গাড়ি) &nbsp;·&nbsp; Ride = চড়া কিছুতে &nbsp;·&nbsp; Climb = বেয়ে উঠা
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 17: I should -->
+      <article class="note-card" id="es17">
+        <div class="note-header">
+          <span class="note-badge">Structure ১৭</span>
+          <h2 class="note-title">I should ____ — আমার কিছু করা উচিৎ</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I should __ → আমার কিছু করা উচিৎ
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I should go now.</strong> → আমার এখন যাওয়া উচিৎ</li>
+            <li><span class="list-dot"></span><strong>I should eat healthy foods.</strong> → আমার স্বাস্থ্যকর খাবার খাওয়া উচিৎ</li>
+            <li><span class="list-dot"></span><strong>I should study.</strong> → আমার লেখাপড়া করা উচিৎ</li>
+            <li><span class="list-dot"></span><strong>I should leave now.</strong> → আমার এখন চলে যাওয়া উচিৎ</li>
+            <li><span class="list-dot"></span><strong>I should wake up early.</strong> → আমার আগে আগে ঘুম থেকে উঠা উচিৎ</li>
+            <li><span class="list-dot"></span><strong>I should exercise.</strong> → আমার ব্যায়াম করা উচিৎ</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I should clean my room. I should get a haircut. I should shave my beard. I should buy new clothes. I should go to the gym. I should exercise. I should eat healthy foods. I should get a job.</p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            Clean = পরিষ্কার &nbsp;·&nbsp; Cut = কাটা &nbsp;·&nbsp; Get = পাওয়া &nbsp;·&nbsp; Get a ___ = একটা ___ পাওয়া
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 18: I could -->
+      <article class="note-card" id="es18">
+        <div class="note-header">
+          <span class="note-badge">Structure ১৮</span>
+          <h2 class="note-title">I could ____ — আমি কিছু পারতাম করতে</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I could __ → আমি কিছু পারতাম করতে
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I could pass the exam.</strong> → আমি পরিক্ষায় পাস করতে পারতাম</li>
+            <li><span class="list-dot"></span><strong>I could play the guitar.</strong> → আমি গিটার বাজাতে পারতাম</li>
+            <li><span class="list-dot"></span><strong>I could do the homework.</strong> → আমি বাসারকাজ করতে পারতাম</li>
+            <li><span class="list-dot"></span><strong>I could sleep if I tried.</strong> → আমি ঘুমাতে পারতাম যদি আমি চেষ্টা করতাম</li>
+            <li><span class="list-dot"></span><strong>I could pass the exam if I studied.</strong> → আমি পরিক্ষা পাস করতে পারতাম যদি আমি লেখাপড়া করতাম</li>
+            <li><span class="list-dot"></span><strong>I could buy the phone if I had money.</strong> → আমি ফোন কিনতে পারতাম যদি আমার কাছে টাকা থাকতো</li>
+          </ul>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            If = যদি &nbsp;·&nbsp; Had = Have-এর Past Tense — অর্থাৎ পূর্বে কিছু একটা ছিল
+          </div>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 19: I would -->
+      <article class="note-card" id="es19">
+        <div class="note-header">
+          <span class="note-badge">Structure ১৯</span>
+          <h2 class="note-title">I would ____ — আমি কিছু করতাম যদি এই সেই হত (Excuse দিতে)</h2>
+        </div>
+        <div class="note-body">
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Inter',sans-serif;font-size:1rem;color:var(--accent);background:rgba(200,169,110,0.06);border-left:2px solid var(--accent)">
+            I would __ → আমি কিছু করতাম যদি এই সেই হত &nbsp;(Would-এর পড়ে But / If বসে)
+          </div>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I would pass the exam if I studied.</strong> → আমি পরিক্ষায় পাস করতাম যদি আমি লেখাপড়া করতাম</li>
+            <li><span class="list-dot"></span><strong>I would go to the wedding but I am sick.</strong> → আমি বিয়েতে জেতাম কিন্তু আমি অসুস্থ</li>
+            <li><span class="list-dot"></span><strong>I would play football but I am tired.</strong> → আমি ফুটবল খেলতাম কিন্তু আমি ক্লান্ত</li>
+            <li><span class="list-dot"></span><strong>I would buy the phone if I had money.</strong> → আমি ফোন কিনতাম যদি আমার টাকা থাকত</li>
+          </ul>
+          <p style="margin-top:0.8rem"><strong style="color:var(--text)">উদাহরণ:</strong> I would pass the exam if I studied. I would go to school if I was healthy. I would win the football match if I played well. I would go to the wedding if I had time.</p>
+        </div>
+      </article>
+
+      <!-- STRUCTURE 20: Be — হওয়া -->
+      <article class="note-card" id="es20">
+        <div class="note-header">
+          <span class="note-badge">Structure ২০</span>
+          <h2 class="note-title">Be — হওয়া (সব Structure-এর সাথে)</h2>
+        </div>
+        <div class="note-body">
+          <p>আমরা যত গুলো Structure শিখেছি, সেগুলোর সাথে <strong style="color:var(--accent)">Be</strong> লাগালে — <strong>হওয়া</strong> অর্থ চলে আসে।</p>
+          <ul class="note-list">
+            <li><span class="list-dot"></span><strong>I will be ___</strong> → আমি কিছু হবো &nbsp;→ I will be a doctor. I will be happy.</li>
+            <li><span class="list-dot"></span><strong>I want to be ___</strong> → আমি কিছু হতে চাই &nbsp;→ I want to be a doctor. I want to be successful.</li>
+            <li><span class="list-dot"></span><strong>I need to be ___</strong> → আমার কিছু হতে লাগবে &nbsp;→ I need to be healthy. I need to be a footballer.</li>
+            <li><span class="list-dot"></span><strong>I have to be ___</strong> → আমার কিছু হতে হবে &nbsp;→ I have to be a good student. I have to be a doctor.</li>
+            <li><span class="list-dot"></span><strong>I can be ___</strong> → আমি কিছু হতে পারবো &nbsp;→ I can be a cricketer. I can be an engineer.</li>
+            <li><span class="list-dot"></span><strong>I should be ___</strong> → আমার কিছু হওয়া উচিৎ &nbsp;→ I should be happy. I should be a businessman.</li>
+            <li><span class="list-dot"></span><strong>I could be ___</strong> → আমি কিছু হতে পারতাম &nbsp;→ I could be a doctor if I studied.</li>
+            <li><span class="list-dot"></span><strong>I would be ___</strong> → আমি কিছু হতাম যদি/কিন্তু &nbsp;→ I would be a doctor if I studied.</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- REVISION / FULL PRACTICE -->
+      <article class="note-card" id="es21">
+        <div class="note-header">
+          <span class="note-badge">Revision</span>
+          <h2 class="note-title">সব Structure একসাথে — Full Practice</h2>
+        </div>
+        <div class="note-body">
+          <p style="margin-bottom:0.6rem"><strong style="color:var(--accent)">Samia-র গল্প:</strong></p>
+          <p>Hi, I am Samia. I am a housewife. I have a beautiful family. I am going to the supermarket. I have to buy groceries. Then I need to come home. Then I will cook for my family. I have a daughter and a son. It is hot today. There is a super market beside my house. I will go there. I have 2000 taka in my bag. I will use it to buy groceries. I want to buy chicken, rice, vegetables and sugar. I should go home soon. Then, I should cook lunch for my family. I want to be a good mother.</p>
+          <p style="margin-top:0.8rem"><strong style="color:var(--accent)">Anisha-র গল্প:</strong></p>
+          <p>Hi, I am Anisha. I am a medical student. I want to be a doctor. I am studying Medicine now at ABC university. I will complete my degree next year. Then, I will get a job at a hospital. I should study more. I need to get a good CGPA. I was sick yesterday. I am fine today. I woke up at 8 am today. Then I went to my university. I would go abroad to study if I had money.</p>
+          <p style="margin-top:0.8rem"><strong style="color:var(--accent)">Rubel-এর গল্প:</strong></p>
+          <p>I am Rubel. I am a student. I am playing football with my friends. I went to school today. I will go to my home at 5pm. I want to win this football match. There is a field beside my home. I play football there.</p>
+          <p style="margin-top:0.8rem"><strong style="color:var(--accent)">বাংলা থেকে ইংরেজি করুন:</strong></p>
+          <div class="arabic-text" style="direction:ltr;text-align:left;font-family:'Hind Siliguri',sans-serif;font-size:0.92rem;color:var(--text);background:rgba(200,169,110,0.04);border-left:2px solid var(--accent)">
+            আমি অনেক ক্লান্ত। আমি বাইরে যেতে চাই। আমি ক্ষুধার্ত। আমার খাবার খাওয়া উচিৎ। আমি বাইরে যাচ্ছি এখন। আমি কাচ্চি খাবো। একটা কাচ্চি রেস্টুরেন্ট আছে আমার বাসার পাসে। আমার কাছে ২০০ টাকা আছে। আমি কাচ্চি কিনতে পারবো। আমি বোরহানি কিনতাম যদি আমার টাকা থাকতো।
+          </div>
+        </div>
+      </article>
+
+    </div><!-- end .notes -->
+  </div>
+</div>
+
 <!-- TAHKIK PAGE -->
 <div class="page" id="page-tahkik">
   <div style="height:48px;"></div>
@@ -1677,10 +2254,26 @@ var NOTE_DATA = [
   {id:'ar4', title:'الأفعال الناقصة — পরিচয় ও সংখ্যা', badge:'আরবি নোট ৪', page:'arabic2', en:'afal naqisah defective verbs arabic'},
   {id:'ar5', title:'الاسم المبني — পরিচয় ও প্রকারভেদ', badge:'আরবি নোট ৫', page:'arabic2', en:'ism mabni indeclinable noun arabic'},
   {id:'ar6', title:'الضمير — পরিচয় ও প্রকারভেদ', badge:'আরবি নোট ৬', page:'arabic2', en:'damir pronoun arabic grammar'},
-  {id:'ar7', title:'اسم الإشارة — পরিচয় ও প্রকারভেদ', badge:'আরবি নোট ৭', page:'arabic2', en:'ism isharah demonstrative pronoun arabic'}
-];
+  // ইংরেজি শিখো
+  {id:'es1', title:'I am — আমি হলাম কিছু একটা', badge:'Structure ১', page:'englearn', en:'I am sentence structure bangla'},
+  {id:'es2', title:'I was / I will be', badge:'Structure ২', page:'englearn', en:'I was I will be past future tense'},
+  {id:'es3', title:'I verb simple form — আমি কিছু করি', badge:'Structure ৩', page:'englearn', en:'I verb simple present tense'},
+  {id:'es4', title:'I am verb+ing — আমি কিছু করছি এখন', badge:'Structure ৪', page:'englearn', en:'I am doing present continuous ing'},
+  {id:'es5', title:'I verb past form — আমি কিছু করেছি', badge:'Structure ৫', page:'englearn', en:'I verb past form past tense'},
+  {id:'es6', title:'I will — আমি কিছু করবো', badge:'Structure ৬', page:'englearn', en:'I will future tense'},
+  {id:'es7', title:'I want / I want to', badge:'Structure ৭', page:'englearn', en:'I want I want to desire'},
+  {id:'es8', title:'I need / I need to', badge:'Structure ৮', page:'englearn', en:'I need I need to necessity'},
+  {id:'es9', title:'I have / I have to', badge:'Structure ৯', page:'englearn', en:'I have I have to possession obligation'},
+  {id:'es10', title:'This is / That is / It is', badge:'Structure ১০', page:'englearn', en:'This is That is It is demonstrative'},
+  {id:'es11', title:'There is — কিছু একটা আছে', badge:'Structure ১১', page:'englearn', en:'There is existence'},
+  {id:'es12', title:'I can / I cannot', badge:'Structure ১২', page:'englearn', en:'I can I cannot ability'},
+  {id:'es13', title:'I should', badge:'Structure ১৩', page:'englearn', en:'I should ought to advice'},
+  {id:'es14', title:'I could', badge:'Structure ১৪', page:'englearn', en:'I could possibility past ability'},
+  {id:'es15', title:'I would', badge:'Structure ১৫', page:'englearn', en:'I would conditional excuse'},
+  {id:'es16', title:'Be — হওয়া', badge:'Structure ১৬', page:'englearn', en:'Be become want to be'},
+  {id:'es21', title:'সব Structure একসাথে — Full Practice', badge:'Revision', page:'englearn', en:'revision full practice all structures'}]
 
-var PAGE_LABELS = {torjoma:'তরজমা', bangla:'ইতিহাস/বাংলা', arabic:'হাদীছ', arabic2:'আরবি', tahkik:'তাহকীক'};
+var PAGE_LABELS = {torjoma:'তরজমা', bangla:'ইতিহাস/বাংলা', arabic:'হাদীছ', arabic2:'আরবি', tahkik:'তাহকীক', englearn:'ইংরেজি শিখো'};
 
 function highlight(text, query) {
   if (!query) return text;
